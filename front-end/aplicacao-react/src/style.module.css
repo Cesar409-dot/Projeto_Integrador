@@ -1,0 +1,10 @@
+/*
+  CSS Module (arquivo .module.css): as classes aqui ficam "isoladas" no componente
+  que as importa. O Vite renomeia .container por trás dos panos (ex: _container_a1b2c)
+  para evitar que essa classe conflite com uma .container de outro arquivo CSS do projeto.
+  Uso no JSX: import styles from "./style.module.css" e depois className={styles.container}
+*/
+.container{
+    display: flex;
+    background-color: yellow;
+}
